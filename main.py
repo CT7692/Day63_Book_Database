@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, Session
-from sqlalchemy import Integer, String, Float, select, func
+from sqlalchemy import Integer, String, Float, select
 
 app = Flask(__name__)
 
